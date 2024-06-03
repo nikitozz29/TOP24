@@ -6,10 +6,11 @@ from selenium import webdriver
 def chrome():
     driver = webdriver.Chrome()
     yield driver
-    driver.quit()
+    driver.close()
 
 
+@pytest.fixture(scope="session")
 def firefox():
     driver = webdriver.Firefox()
     yield driver
-    driver.quit()
+    driver.close()
