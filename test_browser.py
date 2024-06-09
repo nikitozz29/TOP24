@@ -4,7 +4,7 @@ from MainPage import *
 def test_chrome_main_page_nav_bar(chrome):
     top_news_page = MainPage(chrome)
     top_news_page.go_to_main_page()
-    if top_news_page.check_on_close_button():
+    if top_news_page.check_on_close_button()
         top_news_page.check_on_close_button().click()
     elements = top_news_page.check_nav_bar()
     assert "МОСКВА\nРОССИЯ\nЭКОНОМИКА\nМЕГАМИКС 90-Х\nПРОИСШЕСТВИЯ" in elements

@@ -1,0 +1,210 @@
+{
+	"info": {
+		"_postman_id": "d5ea3187-0978-4639-8c67-261598349149",
+		"name": "top24",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35283862"
+	},
+	"item": [
+		{
+			"name": "загрузка сайта",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "загрузка поддомена Кострома",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://kostroma.top24.news/",
+					"protocol": "https",
+					"host": [
+						"kostroma",
+						"top24",
+						"news"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "загрузка поддомена Киров",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "загрузка поддомена Крым",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://krym.top24.news/",
+					"protocol": "https",
+					"host": [
+						"krym",
+						"top24",
+						"news"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "загрузка поддомена Нижневартовск",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://nizhnevartovsk.top24.news/",
+					"protocol": "https",
+					"host": [
+						"nizhnevartovsk",
+						"top24",
+						"news"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "загрузка поддомена Омск",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://nizhnevartovsk.top24.news/",
+					"protocol": "https",
+					"host": [
+						"nizhnevartovsk",
+						"top24",
+						"news"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "загрузка поддомена Рязань",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://nizhnevartovsk.top24.news/",
+					"protocol": "https",
+					"host": [
+						"nizhnevartovsk",
+						"top24",
+						"news"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "загрузка поддомена Сочи",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://nizhnevartovsk.top24.news/",
+					"protocol": "https",
+					"host": [
+						"nizhnevartovsk",
+						"top24",
+						"news"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "загрузка поддомена Ульяновск",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://nizhnevartovsk.top24.news/",
+					"protocol": "https",
+					"host": [
+						"nizhnevartovsk",
+						"top24",
+						"news"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "загрузка поддомена Шарья",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://nizhnevartovsk.top24.news/",
+					"protocol": "https",
+					"host": [
+						"nizhnevartovsk",
+						"top24",
+						"news"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
