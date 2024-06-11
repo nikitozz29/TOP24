@@ -26,8 +26,6 @@ def test_chrome_check_kostroma(chrome):
     top_news_page.check_kostroma_page().click()
 
 
-
-
 def test_firefox_check_cityes(firefox):
     top_news_page = MainPage(firefox)
     top_news_page.go_to_main_page()
